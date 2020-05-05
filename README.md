@@ -2,6 +2,7 @@
 NetSuite OAuth PHP examples
 
 [guzzle_example.php](guzzle_example.php) : Example using Guzzle PHP HTTP client.
+
 [guzzle_example.php](guzzle_curl.php) : Example using Guzzle PHP HTTP client.
 
 ##INSTALL
