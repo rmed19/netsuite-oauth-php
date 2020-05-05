@@ -1,0 +1,7 @@
+{
+    "require": {
+        "guzzlehttp/oauth-subscriber": "^0.3.0",
+        "ext-json": "*",
+        "ext-curl": "*"
+    }
+}
