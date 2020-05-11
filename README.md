@@ -18,4 +18,4 @@ composer install
 ```
 
 #### 3. Configure connection:
-Needs to change connection parameters such as costumer key, costumer secret, token id, token secret, account number and the host url on the [configs.php](configs.php) file.
+Needs to change connection parameters such as ``NS_CONSUMER_KEY``, ``NS_CONSUMER_SECRET``, ``NS_TOKEN_ID``, ``NS_TOKEN_SECRET``, ``NS_ACCOUNT``, ``NS_HOST`` in the [configs.php](configs.php) file.

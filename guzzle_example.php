@@ -8,12 +8,12 @@ require_once __DIR__.'/configs.php';
 $stack = HandlerStack::create();
 
 $middleware = new Oauth1([
-    'consumer_key' => NETSUITE_CONSUMER_KEY,
-    'consumer_secret' => NETSUITE_CONSUMER_SECRET,
+    'consumer_key' => NS_CONSUMER_KEY,
+    'consumer_secret' => NS_CONSUMER_SECRET,
     'signature_method' => Oauth1::SIGNATURE_METHOD_HMAC,
-    'token' => NETSUITE_TOKEN_ID,
-    'token_secret' => NETSUITE_TOKEN_SECRET,
-    'realm' => NETSUITE_ACCOUNT,
+    'token' => NS_TOKEN_ID,
+    'token_secret' => NS_TOKEN_SECRET,
+    'realm' => NS_ACCOUNT,
 ]);
 
 $stack->push($middleware);
